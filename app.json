@@ -1,0 +1,23 @@
+
+{
+    "name": "SASI MD SESSION",
+    "description": "Web Session Generator",
+    "logo": "image url",
+    "repository": "https://github.com/sathsidu99/SASI-MD-SESSION-",
+    "keywords": ["SATHSIDU-AGRESARA"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "Just Leave This Blank",
+        "value": "",
+        "required": false 
+      }
+    }   
+
+}
